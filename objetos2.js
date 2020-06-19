@@ -1,13 +1,13 @@
 //objetos 5
 
-var andres = 
+var andres =
 {
     nombre : "Andres",
     apellido : "Ramirez",
     edad : 32,
 }
 
-var david = 
+var david =
 {
     nombre : "David",
     apellido : "Ramirez",
@@ -27,14 +27,14 @@ imprimirEnMayusculas({nombre:"pepito"});
 
 //objetos 6
 
-var andres = 
+var andres =
 {
     nombre : "Andres",
     apellido : "Ramirez",
     edad : 32,
 }
 
-var david = 
+var david =
 {
     nombre : "David",
     apellido : "Ramirez",
@@ -55,14 +55,14 @@ imprimirNombreYEdad({nombre:"pepito", edad: 28});
 
 // objetos 7
 
-var andres = 
+var andres =
 {
     nombre : "Andres",
     apellido : "Ramirez",
     edad : 32,
 }
 
-var david = 
+var david =
 {
     nombre : "David",
     apellido : "Ramirez",
@@ -79,14 +79,14 @@ cumpleanos(andres)
 
 //objetos 8
 
-var andres = 
+var andres =
 {
     nombre : "Andres",
     apellido : "Ramirez",
     edad : 32,
 }
 
-var david = 
+var david =
 {
     nombre : "David",
     apellido : "Ramirez",
@@ -95,12 +95,14 @@ var david =
 
 function cumpleanos(persona)
 {
-    return
+    let nuevoObjeto =
     {
         ...persona,
         edad: persona.edad + 1
-
     }
+    console.log(nuevoObjeto)
 }
 
 cumpleanos(andres)
+
+// De esta manera la funcion modifica los objetos al pasarlos por paramentros creando un objeto nuevo sin alterar el original

@@ -12,14 +12,14 @@ imprimirEnMayusculas(nombreDario);
 
 // Objetos
 
-var andres = 
+var andres =
 {
     nombre : "Andres",
     apellido : "Ramirez",
     edad : 32,
 }
 
-var david = 
+var david =
 {
     nombre : "David",
     apellido : "Ramirez",
@@ -38,14 +38,14 @@ imprimirEnMayusculas(david.nombre);
 
 // objetos 2
 
-var andres = 
+var andres =
 {
     nombre : "Andres",
     apellido : "Ramirez",
     edad : 32,
 }
 
-var david = 
+var david =
 {
     nombre : "David",
     apellido : "Ramirez",
@@ -64,14 +64,14 @@ imprimirEnMayusculas(david);
 
 // objetos 3
 
-var andres = 
+var andres =
 {
     nombre : "Andres",
     apellido : "Ramirez",
     edad : 32,
 }
 
-var david = 
+var david =
 {
     nombre : "David",
     apellido : "Ramirez",
@@ -89,14 +89,14 @@ imprimirEnMayusculas(david);
 
 // objetos 4
 
-var andres = 
+var andres =
 {
     nombre : "Andres",
     apellido : "Ramirez",
     edad : 32,
 }
 
-var david = 
+var david =
 {
     nombre : "David",
     apellido : "Ramirez",
