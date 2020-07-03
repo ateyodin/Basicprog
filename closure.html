@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function crearSaludo(finalDeFrase){
+        return function (nombre){
+          console.log(`Hola ${nombre} ${finalDeFrase}`)
+        }
+      }
+
+      const saludoArgentino = crearSaludo ('che')
+      const saludoMexicano = crearSaludo ('Guey')
+      const saludosColombiano = crearSaludo ('Parcero')
+
+      saludoArgentino('Andres')
+      saludoMexicano('Andres')
+      saludosColombiano('Andres')
+    </script>
+  </body>
+</html>

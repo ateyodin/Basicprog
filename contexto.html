@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+      const andres = {
+        nombre: 'Andres',
+        apellido: 'Ramirez',
+        edad: 33
+      }
+
+      function saludar(saludo = 'Hola'){
+        console.log(`Hola mi nombre es ${this.nombre}`)
+      }
+
+      const saludarAAndres = saludar.bind(andres)
+
+      setTimeout(saludar.bind(andres, 'Saludos'), 2000)
+
+    </script>
+
+  </body>
+</html>
